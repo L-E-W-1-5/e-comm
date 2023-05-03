@@ -14,10 +14,10 @@ function App() {
 
     <Router>
       <Routes>
-        <Route path='/' Component={HomePage}></Route>
-        <Route path='/SearchPage' Component={SearchPage}></Route>
-        <Route path='/ContactUs' Component={ContactUs}>Hello</Route>
-        <Route path='/AppInfo' Component={AppInfo}></Route>
+        <Route path='/' element={<HomePage/>}></Route>
+        <Route path='/SearchPage' element={<SearchPage/>}></Route>
+        <Route path='/ContactUs' element={<ContactUs/>}></Route>
+        <Route path='/AppInfo' element={<AppInfo/>}></Route>
       </Routes>
     </Router>
   
