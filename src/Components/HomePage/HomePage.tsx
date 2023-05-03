@@ -1,3 +1,7 @@
+import FooterNavBar from "../Footer/FooterNavBar"
+
 export default function HomePage (){
-    return <>HomePage</>
+    return (<div>HomePage
+        <FooterNavBar/>
+    </div>)
 }
