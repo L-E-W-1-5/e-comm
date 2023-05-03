@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  return <body></body>
+  return <body>MotoMarket</body>
    
 }
 
